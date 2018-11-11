@@ -9,14 +9,14 @@ The critic network has a similar architecture to the actor network, with the mai
 
 Both networks' losses are minimized via Adam optimizer.
 
-Hyperparameters are set as follows:
-replay buffer size = 100000
-batch size = 128
-discount factor = 0.99 
-tau = .001
-actor learning rate = .0001  
-critic learning rate = .001 
-L2 weight decay = 0
+Hyperparameters are set as follows:<br/>
+replay buffer size = 100000<br/>
+batch size = 128<br/>
+discount factor = 0.99<br/>
+tau = .001<br/>
+actor learning rate = .0001<br/>  
+critic learning rate = .001<br/> 
+L2 weight decay = 0<br/>
 
 
 
